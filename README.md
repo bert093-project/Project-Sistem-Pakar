@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+<h1>Sistem Pakar Diagnosa Kerusakan Laptop/PC menggunakan Certainty Factor Berbasis Web</h1>
+</div>
 
-## Getting Started
+## Deskripsi Singkat
+Booking Room API adalah REST API untuk mengelola data ruang/kamar dan transaksi booking (pengajuan, pembatalan, persetujuan admin) dengan autentikasi JWT agar akses endpoint aman.​
 
-First, run the development server:
+## Requirements
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Pastikan Anda telah menginstal hal-hal berikut pada sistem Anda:
+
+```
+Git (2.51.2 atau lebih baru)
+Bun (1.3.4 atau lebih baru)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cara Menjalankan Sistem
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone Repo
 
-## Learn More
+```
+git clone https://github.com/bert093-project/Project-Sistem-Pakar.git
+cd Project-Sistem-Pakar
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install package/dependency:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+bun install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Jalankan development server:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+bun run dev
+```
