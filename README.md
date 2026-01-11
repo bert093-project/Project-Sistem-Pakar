@@ -34,3 +34,31 @@ bun install
 ```
 bun run dev
 ```
+
+## Struktur Folder
+```
+Project-Sistem-Pakar (Simplified)
+├─ src
+│  └─ app
+│     ├─ api
+│     │  └─ diagnosa
+│     │     └─ route.ts
+│     ├─ cf
+│     │  ├─ engine.ts
+│     │  └─ types.ts
+│     ├─ data
+│     │  └─ kb.ts
+│     ├─ diagnose_page
+│     │  └─ page.tsx
+│     ├─ globals.css
+│     ├─ layout.tsx
+│     └─ page.tsx
+├─ bun.lock
+├─ eslint.config.mjs
+├─ next.config.ts
+├─ package.json
+├─ postcss.config.mjs
+├─ README.md
+└─ tsconfig.json
+
+```
