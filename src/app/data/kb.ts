@@ -6,8 +6,8 @@ export const symptoms: Symptom[] = [
   { id: "G2", code: "G2", name: "Beep berulang saat boot" },
   { id: "G3", code: "G3", name: "Laptop restart sendiri" },
   { id: "G4", code: "G4", name: "Suhu cepat panas / thermal throttling" },
-  { id: "G5", code: "G5", name: "Keyboard dan Touchpad tidak Berfungsi dengan baik" },
-  { id: "G6", code: "G6", name: "Tidak ada suara dari speaker" },
+  { id: "G5", code: "G5", name: "Keyboard dan Touchpad laptop tidak berfungsi" },
+  { id: "G6", code: "G6", name: "Tidak ada suara pada speaker PC/Laptop" },
 ];
 
 export const damages: Damage[] = [
