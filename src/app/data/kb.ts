@@ -27,7 +27,6 @@ export const damages: Damage[] = [
   //* UNTUK G5 (GEJALA 6)
   { id: "D13", code: "DRIVERSOUND", name: "Perbaharui Driver Sound", solution: "Pastikan driver pada audio anda sudah versi terbaru. Jika masih bermasalah coba uninstall driver (melalui device manager) dan restart kembali laptop anda."},
   { id: "D14", code: "SOUNDEXTERNAL", name: "Gunakan Speaker External", solution: "Beli speaker external jika memang ada masalah pada pc/laptop anda."},
-  { id: "D15", code: "", name: "Gunakan Speaker External", solution: "Beli speaker external jika memang ada masalah pada pc/laptop anda."},
 ];
 
 export const rules: Rule[] = [
@@ -59,12 +58,7 @@ export const rules: Rule[] = [
   //* KEYBOARD DAN TOUCHPAD TIDAK BERFUNGSI DENGAN BAIK (G5)
   { id: "R17", damageId: "D4", symptomId: "G5", expertCF: 0.4 },
   { id: "R18", damageId: "D10", symptomId: "G5", expertCF: 0.75 },
-  // { id: "R19", damageId: "D9", symptomId: "G5", expertCF: 0.55 },
-  // { id: "R20", damageId: "D5", symptomId: "G4", expertCF: 0.1 },
 
   //* TIDAK ADA SUARA DARI SPEAKER (G6)
   { id: "R21", damageId: "D13", symptomId: "G6", expertCF: 0.3 },
-  // { id: "R22", damageId: "D10", symptomId: "G6", expertCF: 0.75 },
-  // { id: "R19", damageId: "D9", symptomId: "G5", expertCF: 0.55 },
-  // { id: "R20", damageId: "D5", symptomId: "G4", expertCF: 0.1 },
 ];
