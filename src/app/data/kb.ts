@@ -22,7 +22,9 @@ export const damages: Damage[] = [
   { id: "D9", code: "PERMUKAAN", name: "Gunakan Laptop/PC di Permukaan Datar", solution: "Hindari penggunaan laptop/pc di kasur atau sofa, letakkan di permukaan keras dan datar agar ventilasi tidak terhalang."},
   
   //* UNTUK G5 (GEJALA 5)
-  { id: "D10", code: "ALTERNATIF", name: "Beli Keyboard dan Mouse baru", solution: "Solusi paling ampuh adalah membeli keyboad dan mouse baru. Pastikan port USB Type A dan C ada (tergantung keyboard dan mouse). Dan jika anda tidak ingin ribet, anda bisa membeli Combo Pack Keyboard & Mouse. Seperti Logiteech MK120 (Wired) atau Logitech Pebbel 2 Combo (Wireless)."},
+  { id: "D10", code: "ALTERNATIF", name: "Beli Keyboard dan Mouse baru", solution: "Solusi paling ampuh adalah membeli keyboard dan mouse baru. Pastikan port USB Type A dan C ada (tergantung keyboard dan mouse). Dan jika anda tidak ingin ribet, anda bisa membeli Combo Pack Keyboard & Mouse. Seperti Logiteech MK120 (Wired) atau Logitech Pebble 2 Combo (Wireless)."},
+  { id: "D11", code: "BKT", name: "Membersihkan Keyboard dan Touchpad", solution: "Bersihkan Keyboard dan Touchpad laptop terlebih dahulu. Jika anda ragu untuk membersihkan lebih dalam, silahkan ke service pc/laptop yg menyediakan layanan pembersihan menyeluruh."},
+  { id: "D12", code: "INULKEYBOARD", name: "Install Ulang Driver Keyboard", solution: "Coba Install Ulang Driver Keyboard, Lalu restart laptop anda. Jika keyboard masih tidak bisa digunakan, coba bawa laptop ke service pc/laptop untuk di perbaiki. Biasanya service pc/laptop menyarankan untuk mengganti keyboard secara menyeluruh atau membeli keyboard dan mouse external."},
 
   //* UNTUK G5 (GEJALA 6)
   { id: "D13", code: "DRIVERSOUND", name: "Perbaharui Driver Sound", solution: "Pastikan driver pada audio anda sudah versi terbaru. Jika masih bermasalah coba uninstall driver (melalui device manager) dan restart kembali laptop anda."},
@@ -58,7 +60,11 @@ export const rules: Rule[] = [
   //* KEYBOARD DAN TOUCHPAD TIDAK BERFUNGSI DENGAN BAIK (G5)
   { id: "R17", damageId: "D4", symptomId: "G5", expertCF: 0.4 },
   { id: "R18", damageId: "D10", symptomId: "G5", expertCF: 0.75 },
+  { id: "R18", damageId: "D11", symptomId: "G5", expertCF: 0.3 },
+  { id: "R18", damageId: "D12", symptomId: "G5", expertCF: 0.15 },
 
   //* TIDAK ADA SUARA DARI SPEAKER (G6)
   { id: "R21", damageId: "D13", symptomId: "G6", expertCF: 0.3 },
+  { id: "R22", damageId: "D14", symptomId: "G6", expertCF: 0.6 },
+  { id: "R23", damageId: "D5", symptomId: "G6", expertCF: 0.1 },
 ];
