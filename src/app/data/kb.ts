@@ -60,8 +60,8 @@ export const rules: Rule[] = [
   //* KEYBOARD DAN TOUCHPAD TIDAK BERFUNGSI DENGAN BAIK (G5)
   { id: "R17", damageId: "D4", symptomId: "G5", expertCF: 0.4 },
   { id: "R18", damageId: "D10", symptomId: "G5", expertCF: 0.75 },
-  { id: "R18", damageId: "D11", symptomId: "G5", expertCF: 0.3 },
-  { id: "R18", damageId: "D12", symptomId: "G5", expertCF: 0.15 },
+  { id: "R19", damageId: "D11", symptomId: "G5", expertCF: 0.3 },
+  { id: "R20", damageId: "D12", symptomId: "G5", expertCF: 0.15 },
 
   //* TIDAK ADA SUARA DARI SPEAKER (G6)
   { id: "R21", damageId: "D13", symptomId: "G6", expertCF: 0.3 },
